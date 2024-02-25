@@ -7,9 +7,7 @@
  */
 static char *font = "ComicCode Nerd Font:pixelsize=14:antialias=true:autohint=true";
 /* Spare fonts */
-static char *font2[] = {
-	"AppleColorEmoji:pixelsize=14:antialias=true:autohint=true",
-};
+static char *font2[] = { };
 
 static int borderpx = 2;
 
@@ -39,7 +37,7 @@ static float chscale = 1.0;
  *
  * More advanced example: L" `'\"()[]{}"
  */
-wchar_t *worddelimiters = L" `'\"()[]{},;";
+wchar_t *worddelimiters = L" `'\"()[]{},;=+";
 
 /* selection timeouts (in milliseconds) */
 static unsigned int doubleclicktimeout = 300;
